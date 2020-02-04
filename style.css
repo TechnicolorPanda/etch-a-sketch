@@ -1,0 +1,47 @@
+
+body {
+  background-image: url("clouds.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1{
+  font-size: 48px;
+  color: rgb(1, 14, 15);
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    position: relative;
+    justify-content: space-evenly;
+  }
+  
+  .gridsquare {
+    border: 1px solid black;
+    position: relative;
+    top: 0; left: 0;
+    height: auto;
+    width: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .box {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2196F3;
+    padding: 1px;
+  }
