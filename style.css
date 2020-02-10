@@ -6,12 +6,14 @@ body {
   background-size: cover;
 }
 
-h1{
+h1 {
   font-size: 48px;
   font-weight: bold;
   color: rgb(1, 14, 15);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
   text-align: center;
   line-height: 2;
   font-family: arial, sans-serif;
@@ -22,17 +24,15 @@ h1{
   border-radius: 0%;
 }
 
-
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*border: 1px solid black;*/
     position: relative;
     justify-content: space-evenly;
-  }
+}
   
-  .gridsquare {
+.gridsquare {
     border: 2px solid #5397ce; 
     position: relative;
     top: 0; left: 0;
@@ -41,23 +41,44 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
+}
 
-  .box {
-    width: 400px;
-    height: 400px;
+.box {
+    width: 450px;
+    height: 450px;
     margin: 0 auto;
     border: 2px solid black;
     display: flex;
     justify-content: space-evenly;
     background-color: #5397ce;
     padding: 0px;
-  }
+}
 
-  input {
-    text-align: start;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-  }
-  
+.inputBtn {
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  border: 2px solid grey;
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  padding: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  align-items: flex-end;
+}
+
+#reset{
+  width: 200px;
+  height: 30px;
+}
+
+#rdmColor{
+  width: 200px;
+  height: 30px;
+}
+
+#container{
+  text-align: center;
+}
